@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\cart.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\cart.spec.js" hostname="localhost" tests="5" failures="0" time="25.413" timestamp="2021-07-05T01:49:11">
+    <properties>
+    </properties>
+    <testcase classname="cart" name="should provide the initial state" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle CHECKOUT_REQUEST action" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle CHECKOUT_FAILURE action" time="0">
+    </testcase>
+    <testcase classname="cart" name="should handle ADD_TO_CART action" time="0">
+    </testcase>
+    <testcase classname="when product is already in cart" name="should handle ADD_TO_CART action" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="1" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\index.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\index.spec.js" hostname="localhost" tests="2" failures="2" time="25.436" timestamp="2021-07-05T01:49:11">
+    <properties>
+    </properties>
+    <testcase classname="getTotal" name="should return price total" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toBe([22m[32mexpected[39m[2m)[22m
+
+Expected value to be (using ===):
+  [32m&quot;27.93&quot;[39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32mstring[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\index.spec.js:36:43)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="getCartProducts" name="should return products with quantity" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m[{&quot;id&quot;: 1, &quot;price&quot;: 1.99, &quot;quantity&quot;: 4}, {&quot;id&quot;: 1, &quot;price&quot;: 4.99, &quot;quantity&quot;: 2}, {&quot;id&quot;: 1, &quot;price&quot;: 9.99, &quot;quantity&quot;: 1}][39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32marray[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\index.spec.js:69:50)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="2" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js" hostname="localhost" tests="4" failures="4" time="25.512" timestamp="2021-07-05T01:49:12">
+    <properties>
+    </properties>
+    <testcase classname="when products are received" name="contains the products from the action" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m{&quot;id&quot;: 1, &quot;inventory&quot;: 2, &quot;title&quot;: &quot;Product 1&quot;}[39m
+Received:
+  [31m{}[39m
+
+Difference:
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m-Object {[39m
+[32m-  &quot;id&quot;: 1,[39m
+[32m-  &quot;inventory&quot;: 2,[39m
+[32m-  &quot;title&quot;: &quot;Product 1&quot;,[39m
+[32m-}[39m
+[31m+Object {}[39m
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js:32:47)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when products are received" name="contains no other products" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32mundefined[39m
+Received:
+  [31m{}[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32mundefined[39m but received [31mobject[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js:45:47)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when products are received" name="lists all of the products as visible" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m[{&quot;id&quot;: 1, &quot;inventory&quot;: 2, &quot;title&quot;: &quot;Product 1&quot;}, {&quot;id&quot;: 2, &quot;inventory&quot;: 1, &quot;title&quot;: &quot;Product 2&quot;}][39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32marray[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js:49:52)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when an item is added to the cart" name="the inventory is reduced" time="0">
+      <failure message="TypeError: Cannot read property &apos;includes&apos; of undefined
+    at Object.&lt;anonymous&gt;.exports.product (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.js:10:27)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js:65:40)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:38:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m[{&quot;id&quot;: 1, &quot;inventory&quot;: 1, &quot;title&quot;: &quot;Product 1&quot;}, {&quot;id&quot;: 2, &quot;inventory&quot;: 1, &quot;title&quot;: &quot;Product 2&quot;}][39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32marray[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\reducers\products.spec.js:69:54)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="3" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductList.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductList.spec.js" hostname="localhost" tests="0" failures="0" time="0" timestamp="1970-01-01T00:00:00">
+    <properties>
+    </properties>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="4" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Product.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Product.spec.js" hostname="localhost" tests="2" failures="2" time="1.456" timestamp="2021-07-05T01:49:37">
+    <properties>
+    </properties>
+    <testcase classname="Product component" name="should render title and price" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toBe([22m[32mexpected[39m[2m)[22m
+
+Expected value to be (using ===):
+  [32m&quot;Test Product - $9.99&quot;[39m
+Received:
+  [31m&quot;Test Product-$9.99*&quot;[39m
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Product.spec.js:22:30)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when given inventory" name="should render title, price, and inventory" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toBe([22m[32mexpected[39m[2m)[22m
+
+Expected value to be (using ===):
+  [32m&quot;Test Product - $9.99 x 6&quot;[39m
+Received:
+  [31m&quot;Test Product-$9.99*6&quot;[39m
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Product.spec.js:28:32)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="5" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js" hostname="localhost" tests="6" failures="6" time="1.905" timestamp="2021-07-05T01:49:37">
+    <properties>
+    </properties>
+    <testcase classname="ProductItem component" name="should render product" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:40:20)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="ProductItem component" name="should render Add To Cart message" time="0">
+      <failure message="Error: Method “text” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.text (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1302:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:45:19)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="ProductItem component" name="should not disable button" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at ShallowWrapper.prop (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1654:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:50:19)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="ProductItem component" name="should call action on button click" time="0">
+      <failure message="Error: Method “simulate” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.simulate (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1371:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:55:12)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when product inventory is 0" name="should render Sold Out message" time="0">
+      <failure message="Error: Method “text” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.text (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1302:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:66:21)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when product inventory is 0" name="should disable button" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at ShallowWrapper.prop (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1654:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\ProductItem.spec.js:71:21)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+  <testsuite id="6" name="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js" errors="0" package="D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js" hostname="localhost" tests="6" failures="4" time="3.928" timestamp="2021-07-05T01:49:38">
+    <properties>
+    </properties>
+    <testcase classname="Cart component" name="should display total" time="0">
+    </testcase>
+    <testcase classname="Cart component" name="should display add some products message" time="0">
+      <failure message="Error: Method “text” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.text (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1302:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js:37:15)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Cart component" name="should disable button" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;disabled&quot;[39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32mstring[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js:42:37)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when given product" name="should render products" time="0">
+      <failure message="Error: Method “props” is meant to be run on 1 node. 0 found instead.
+    at ShallowWrapper.single (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:2197:17)
+    at ShallowWrapper.props (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\enzyme\build\ShallowWrapper.js:1431:21)
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js:63:29)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when given product" name="should not disable button" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).toEqual([22m[32mexpected[39m[2m)[22m
+
+Expected value to equal:
+  [32m&quot;&quot;[39m
+Received:
+  [31mundefined[39m
+
+Difference:
+
+  Comparing two different types of values. Expected [32mstring[39m but received [31mundefined[39m.
+    at Object.&lt;anonymous&gt; (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\src\components\Cart.spec.js:68:39)
+    at Object.asyncFn (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at D:\My Documents\RAJESH\PROJECTS\REACT\e-commerce-app\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="when given product" name="should call action on button click" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
